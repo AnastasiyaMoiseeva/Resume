@@ -1,0 +1,135 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+    }
+
+    *,
+    *:before,
+    *:after {
+     box-sizing: border-box;
+    }
+    
+    h1, h2, h3, h4, h5, h6{
+        margin: 0;
+    }
+.main{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+    
+    .left__zone{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin-top: 1rem;
+      
+    }
+.name{
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 1rem;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 3em;
+}
+
+.img > img {
+  
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 13rem;
+    border-radius: 200px;
+    }
+
+
+    .contacts{
+        margin-top: 2rem;
+        position: absolute;
+        background-color: #fcf2e6;
+        left: 0;
+        border-bottom-right-radius: 60px;
+        border-top-right-radius: 60px;
+        padding: 30px;
+    }
+    .contact__item> a{
+        text-decoration: none;
+        cursor: pointer;
+        color: #25bec9;
+        font-weight: 900;
+    }
+.contact__item> a:hover{
+    border-bottom:1px solid #25bec9;
+    font-size: 17px;
+    transition: 0.2s;
+
+}
+
+    .contact__item{
+       margin-left: 3rem;
+       font-weight: 700;
+    }
+    .education{
+        position: relative;
+        margin-top: 20rem;
+    }
+
+    .right__zone{
+        width: 50%;
+        background-color: #fcf2e6;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        padding-bottom: 2rem;
+        height: max-content;
+    }
+
+    .year{
+        font-family: 'Work Sans', sans-serif;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        margin-top: 1rem;
+        font-size: 25px;
+        font-weight: 700;
+        margin-left: 2rem;
+    }
+    .text{
+        width: 80%;
+        margin: 1rem;
+    }
+
+    .text>a {
+        text-decoration: none;
+        cursor: pointer;
+        color: #25bec9;
+        font-weight: 900;
+    }
+
+    .text>a:hover{
+        border-bottom:1px solid #25bec9;
+        font-size: 17px;
+        transition: 0.2s;
+    }
+
+    @media screen and (max-width:992px){
+        .main{
+        max-width: 100%;
+            display: block;
+            justify-content: center;
+        }
+        .img{
+            text-align: center;
+        }
+        .left__zone{
+            width: 100%;
+        }
+        .right__zone{
+            width: 90%;
+        }
+    
+    .text {
+        margin-left: 2em;
+    }
+}
