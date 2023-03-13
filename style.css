@@ -6,6 +6,10 @@ body {
     color: #333;
     }
 
+    .header{
+        display:flex;
+    }
+
     *,
     *:before,
     *:after {
@@ -15,6 +19,7 @@ body {
     h1, h2, h3, h4, h5, h6{
         margin: 0;
     }
+
 .main{
     display: flex;
     justify-content: center;
@@ -23,25 +28,27 @@ body {
 }
     
     .left__zone{
-        display: flex;
-        justify-content: center;
-        width: 50%;
-        margin-top: 1rem;
+        justify-content: center;  
       
     }
+
+
+
 .name{
+    display: flex;
     font-family: 'Work Sans', sans-serif;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    margin-top: 1rem;
+    margin-top: 3rem;
     font-size: 35px;
     font-weight: 700;
-    margin-left: 3em;
+    margin-left: 2em;
+}
+
+.img {
+    display: flex;
 }
 
 .img > img {
-  
-    margin-top: 1rem;
-    margin-left: 1rem;
     width: 13rem;
     border-radius: 200px;
     }
@@ -49,12 +56,11 @@ body {
 
     .contacts{
         margin-top: 2rem;
-        position: absolute;
         background-color: #fcf2e6;
         left: 0;
-        border-bottom-right-radius: 60px;
-        border-top-right-radius: 60px;
+        border-radius: 60px;
         padding: 30px;
+        width: 55%;
     }
     .contact__item> a{
         text-decoration: none;
@@ -75,16 +81,14 @@ body {
     }
     .education{
         position: relative;
-        margin-top: 20rem;
     }
 
     .right__zone{
         width: 50%;
         background-color: #fcf2e6;
-        margin-top: 1rem;
-        margin-left: 1rem;
+        
         padding-bottom: 2rem;
-        height: max-content;
+        height: 100vh;
     }
 
     .year{
