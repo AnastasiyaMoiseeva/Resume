@@ -60,7 +60,8 @@ body {
         left: 0;
         border-radius: 60px;
         padding: 30px;
-        width: 55%;
+        min-width: 55%;
+        max-width: fit-content;
     }
     .contact__item> a{
         text-decoration: none;
